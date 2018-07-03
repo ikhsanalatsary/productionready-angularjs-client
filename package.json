@@ -20,6 +20,12 @@
     "gulp-util": "^3.0.7",
     "marked": "^0.3.5",
     "merge-stream": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
-  }
+    "vinyl-source-stream": "^1.1.0",
+    "snyk": "^1.88.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
